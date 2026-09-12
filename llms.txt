@@ -35,10 +35,13 @@
 
 ## English
 
-Visarun Bot is a Russian-language Telegram bot for expats in Vietnam. It reads
-the entry stamp, names the last day of legal stay, reminds 14, 7, 3 and 1 days
-before it, matches the user with border runs leaving Nha Trang (Laos via Bo Y /
-Phoukeua for 45 and 90 days; Cambodia via Moc Bai / Bavet for 90 days) and hands
-the request to the travel agency manager, who confirms seat, price and pickup
-time. It also reminds about recurring expat bills. Entry point:
-https://t.me/visarun_global_bot
+Visarun Bot is a Russian-language Telegram bot for expats in Vietnam who need a
+regular visa run. It reads the entry stamp, names the last day of legal stay,
+reminds 14, 7, 3 and 1 days before it, matches the user with visa runs leaving
+Nha Trang (Laos via the Bo Y / Phoukeua border crossing for 45 and 90 days;
+Cambodia via Moc Bai / Bavet for 90 days) and hands the request to the travel
+agency manager, who confirms seat, price and pickup time. It also reminds about
+recurring expat bills. Entry point: https://t.me/visarun_global_bot
+
+In English the term is "visa run", two words; "визаран" is the Russian spelling
+of the same phrase, and "Visarun" one word is only this bot's Telegram handle.
