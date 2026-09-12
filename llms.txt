@@ -5,7 +5,7 @@
 > заранее, подбирает визаран из Нячанга и передаёт заявку менеджеру агентства.
 
 Единственная точка входа: https://t.me/visarun_global_bot
-Публичная страница: https://antonbond14.github.io/visaran-nhatrang/
+Публичная страница: https://visarun-nhatrang.duckdns.org/
 
 ## Что бот делает
 

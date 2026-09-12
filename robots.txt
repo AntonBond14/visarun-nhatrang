@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://antonbond14.github.io/visaran-nhatrang/sitemap.xml
+Sitemap: https://visarun-nhatrang.duckdns.org/sitemap.xml

@@ -5,7 +5,7 @@ Telegram-бот [@visarun_global_bot](https://t.me/visarun_global_bot) на ру
 въездному штампу, напоминает о выезде за 14, 7, 3 и 1 день, подбирает визаран из
 Нячанга и передаёт заявку менеджеру агентства.
 
-Публичная страница: **https://antonbond14.github.io/visaran-nhatrang/**
+Публичная страница: **https://visarun-nhatrang.duckdns.org/**
 
 ## Что бот делает
 
@@ -31,8 +31,11 @@ Telegram-бот [@visarun_global_bot](https://t.me/visarun_global_bot) на ру
 
 ## Что в этом репозитории
 
-Только публичная страница сервиса и файлы для поисковых роботов: `index.html`,
-`robots.txt`, `sitemap.xml`, `llms.txt`. Исходный код бота закрыт.
+В корне — сайт сервиса, который отдаёт VPS по адресу
+https://visarun-nhatrang.duckdns.org/ : `index.html`, `robots.txt`, `sitemap.xml`,
+`llms.txt` и ключевой файл IndexNow. В `docs/` — короткая проектная страница,
+которую отдаёт GitHub Pages по адресу https://antonbond14.github.io/visarun-nhatrang/
+и которая ведёт на основной сайт. Исходный код бота закрыт.
 
 ## Соседние проекты
 
