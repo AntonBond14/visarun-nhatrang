@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://antonbond14.github.io/visarun-vietnam/sitemap.xml
+Sitemap: https://antonbond14.github.io/visaran-nhatrang/sitemap.xml

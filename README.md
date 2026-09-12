@@ -5,7 +5,7 @@ Telegram-бот [@visarun_global_bot](https://t.me/visarun_global_bot) на ру
 въездному штампу, напоминает о выезде за 14, 7, 3 и 1 день, подбирает визаран из
 Нячанга и передаёт заявку менеджеру агентства.
 
-Публичная страница: **https://antonbond14.github.io/visarun-vietnam/**
+Публичная страница: **https://antonbond14.github.io/visaran-nhatrang/**
 
 ## Что бот делает
 
