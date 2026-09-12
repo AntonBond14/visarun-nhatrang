@@ -1,0 +1,39 @@
+name: visarun-site
+
+# Отдельный крошечный проект: только статика сайта. Намеренно не входит в
+# compose-проект `visaran` — деплой бота пересобирает образ и переключает
+# git-checkout, и сайту незачем от этого зависеть. Обновление сайта это
+# `git pull` в этом каталоге, контейнер трогать не нужно.
+
+services:
+  site:
+    image: nginx:1.27-alpine
+    container_name: visarun-site
+    restart: unless-stopped
+    volumes:
+      # Корень репозитория и есть сайт; служебные пути закрыты в nginx.conf.
+      - ..:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      # Сеть Caddy из проекта getmenu: он терминирует TLS для всех публичных
+      # имён этой машины и проксирует сюда visarun-nhatrang.duckdns.org.
+      # Порт наружу не публикуем — внутрь ходит только Caddy.
+      - edge
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+    healthcheck:
+      interval: 30s
+      timeout: 5s
+      start_period: 5s
+      retries: 3
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/robots.txt"]
+
+networks:
+  edge:
+    name: getmenu_default
+    external: true
