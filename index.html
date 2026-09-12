@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="msvalidate.01" content="DADA12E4565377078242A9F5655E6797">
+<title>Визаран из Нячанга — Telegram-бот: срок по штампу, напоминания, запись на выезд</title>
+<meta name="description" content="Telegram-бот для русскоязычных во Вьетнаме: считает последний легальный день по въездному штампу, напоминает о выезде за 14, 7, 3 и 1 день, подбирает визаран в Лаос или Камбоджу из Нячанга и передаёт заявку менеджеру агентства.">
+<link rel="canonical" href="https://antonbond14.github.io/visarun-vietnam/">
+<style>*{box-sizing:border-box}body{margin:0;background:#fbfaf7;color:#1c1b19;font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}.wrap{max-width:820px;margin:0 auto;padding:32px 20px 64px}a{color:#9a3412}a:hover{color:#c2410c}h1{font-size:30px;line-height:1.25;margin:0 0 8px}h2{font-size:20px;margin:36px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8}.lede{font-size:17px;color:#44403c;margin:0 0 8px}.meta{color:#78716c;font-size:14px;margin:0 0 24px}ul{padding-left:20px;margin:10px 0}li{margin:6px 0}ol{padding-left:20px;margin:10px 0}ol li{margin:8px 0}.note{background:#fff;border:1px solid #e7e2d8;border-radius:8px;padding:14px 16px;margin:22px 0;font-size:15px}footer{margin-top:44px;padding-top:16px;border-top:1px solid #e7e2d8;color:#78716c;font-size:14px}code{background:#f1ede4;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Визаран из Нячанга &mdash; Telegram-бот, который считает ваш срок и записывает на выезд</h1>
+<p class="lede">Долгая жизнь во Вьетнаме упирается в одну дату: последний день, когда вы ещё находитесь в стране легально. Бот <a href="https://t.me/visarun_global_bot">@visarun_global_bot</a> считает эту дату по въездному штампу, напоминает о ней заранее и подбирает реальный выезд у агентств, которые возят из Нячанга.</p>
+<p class="meta">Русский язык &middot; Telegram, без приложения и регистрации &middot; Нячанг, Вьетнам</p>
+
+<h2>Как это работает</h2>
+<ol>
+<li><strong>Показываете штамп.</strong> Фото страницы паспорта со въездным штампом или просто дата цифрами. Бот называет последний легальный день пребывания.</li>
+<li><strong>Получаете напоминания.</strong> За 14, 7, 3 и 1 день до дедлайна и в сам день выезда. Помнить дату самому не нужно.</li>
+<li><strong>Записываетесь на выезд.</strong> Бот показывает ближайшие рейсы, которые успевают до вашего дедлайна, и передаёт заявку менеджеру агентства. Менеджер подтверждает место, цену и время посадки.</li>
+</ol>
+
+<h2>Какие выезды бот подбирает</h2>
+<ul>
+<li><strong>Лаос</strong>, погранпереход Bo Y / Phoukeua &mdash; на 45 и на 90 дней.</li>
+<li><strong>Камбоджа</strong>, погранпереход Moc Bai / Bavet &mdash; на 90 дней.</li>
+<li>Отправление из Нячанга, вечерними рейсами. Точное расписание и цену называет менеджер агентства при подтверждении заявки &mdash; бот их не публикует и не обещает.</li>
+</ul>
+
+<h2>Что бот умеет кроме этого</h2>
+<ul>
+<li>Показывает, какой штраф грозит за просрочку выезда, по диапазонам срока.</li>
+<li>Для подтверждённой поездки присылает пошаговую инструкцию именно по её погранпереходу: где сбор, что взять, как проходит граница, что делать на обратном пути.</li>
+<li>Напоминает о регулярных платежах экспата &mdash; аренда, байк, интернет, счётчики. Команда <code>/payments</code>.</li>
+<li>После поездки начинает новый цикл: новый штамп, новый дедлайн, новые напоминания.</li>
+</ul>
+
+<div class="note">
+Бот не оформляет визы и не заменяет агентство. Он считает срок, напоминает о нём и доводит вашу заявку до живого менеджера, который и везёт. Решения по документам всегда за вами и за агентством.
+</div>
+
+<h2>Кому это нужно</h2>
+<ul>
+<li>Живущим во Вьетнаме по безвизу или e-visa, кому раз в 45 или 90 дней нужно пересечь границу.</li>
+<li>Тем, кто уже один раз пропустил дату и платил штраф.</li>
+<li>Тем, кто не хочет держать в голове дедлайн, расписание выездов и счета за квартиру одновременно.</li>
+</ul>
+
+<h2>Начать</h2>
+<p>Откройте <a href="https://t.me/visarun_global_bot">t.me/visarun_global_bot</a>, нажмите Start и пришлите фото штампа. Дальше бот ведёт сам.</p>
+
+<h2>English</h2>
+<p>Visarun Bot is a Telegram bot in Russian for expats living in Vietnam. Send a photo of your entry stamp and it tells you the last day you are legally in the country, then reminds you 14, 7, 3 and 1 days before that date and on the day itself. It matches you with real border runs leaving Nha Trang &mdash; Laos via the Bo Y / Phoukeua crossing (45 and 90 days) and Cambodia via Moc Bai / Bavet (90 days) &mdash; and passes your request to the agency manager, who confirms the seat, the price and the pickup time. It also reminds you about recurring expat bills: rent, motorbike, internet, utilities. Start at <a href="https://t.me/visarun_global_bot">t.me/visarun_global_bot</a>.</p>
+
+<h2>Ti&#7871;ng Vi&#7879;t</h2>
+<p>Visarun Bot l&agrave; bot Telegram ti&#7871;ng Nga d&agrave;nh cho ng&#432;&#7901;i n&#432;&#7899;c ngo&agrave;i s&#7889;ng t&#7841;i Vi&#7879;t Nam. G&#7917;i &#7843;nh d&#7845;u nh&#7853;p c&#7843;nh, bot t&iacute;nh ng&agrave;y cu&#7889;i c&ugrave;ng b&#7841;n &#7903; l&#7841;i h&#7907;p ph&aacute;p v&agrave; nh&#7855;c tr&#432;&#7899;c 14, 7, 3 v&agrave; 1 ng&agrave;y. Bot gi&#7899;i thi&#7879;u chuy&#7871;n xu&#7845;t c&#7843;nh t&#7915; Nha Trang &#273;i L&agrave;o (c&#7917;a kh&#7849;u Bo Y) v&agrave; Campuchia (c&#7917;a kh&#7849;u M&#7897;c B&agrave;i), r&#7891;i chuy&#7875;n y&ecirc;u c&#7847;u cho nh&acirc;n vi&ecirc;n c&ocirc;ng ty du l&#7883;ch x&aacute;c nh&#7853;n.</p>
+
+<h2>Для машин</h2>
+<ul>
+<li><a href="llms.txt">llms.txt</a> &mdash; то же самое коротким текстом, для языковых моделей.</li>
+<li><a href="sitemap.xml">sitemap.xml</a>, <a href="robots.txt">robots.txt</a> &mdash; карта сайта и правила обхода. Обход разрешён всем роботам.</li>
+</ul>
+
+<footer>
+Визаран-бот &mdash; Нячанг, Вьетнам. Единственная точка входа: <a href="https://t.me/visarun_global_bot">@visarun_global_bot</a> в Telegram.<br>
+Соседние проекты: <a href="https://antonbond14.github.io/getmenu-vietnam/">GETMENU</a> &mdash; меню и прайс-листы заведений Вьетнама; <a href="https://nharadar.duckdns.org/">NhaRadar</a> &mdash; аренда жилья в Нячанге.
+</footer>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://antonbond14.github.io/visarun-vietnam/#website",
+      "url": "https://antonbond14.github.io/visarun-vietnam/",
+      "name": "Визаран-бот — Нячанг, Вьетнам",
+      "inLanguage": "ru",
+      "description": "Telegram-бот для русскоязычных во Вьетнаме: считает последний легальный день по въездному штампу, напоминает о выезде и подбирает визаран из Нячанга."
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://antonbond14.github.io/visarun-vietnam/#bot",
+      "name": "Visarun Bot",
+      "alternateName": "Визаран-бот",
+      "url": "https://t.me/visarun_global_bot",
+      "applicationCategory": "TravelApplication",
+      "operatingSystem": "Telegram",
+      "inLanguage": "ru",
+      "description": "Считает последний легальный день пребывания во Вьетнаме по въездному штампу, напоминает за 14, 7, 3 и 1 день до выезда, подбирает визаран в Лаос или Камбоджу из Нячанга и передаёт заявку менеджеру агентства. Дополнительно напоминает о регулярных платежах экспата.",
+      "featureList": [
+        "Расчёт последнего легального дня по фото въездного штампа",
+        "Напоминания за 14, 7, 3 и 1 день до дедлайна и в день выезда",
+        "Подбор выездов в Лаос (КПП Bo Y) и Камбоджу (КПП Moc Bai) из Нячанга",
+        "Передача заявки менеджеру агентства",
+        "Пошаговая инструкция по погранпереходу подтверждённой поездки",
+        "Напоминания о регулярных платежах: аренда, байк, интернет, счётчики"
+      ]
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
